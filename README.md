@@ -1,2 +1,2 @@
 # hello-world
-This Repository my growth in Html, CSS, JS. So Hello World Felt Appropriate. 
+This Repository Shows my growth in Html, CSS and JS. So Hello-World Felt Appropriate. 
