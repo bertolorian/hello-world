@@ -1,0 +1,68 @@
+body{ 
+  background-image: url('mario.jpg');
+  background-repeat:no-repeat;
+  background-position: left-bottom;
+  background-size: 100% 100%;
+}
+h1{
+  width:100%;
+  color:white;
+  font-family: lato;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 10px 20px grey;
+
+}
+h2{
+  font-size: 25px;
+  color:white;
+  text-align: center;
+  margin-top: 80px;
+  font-family: lato;
+}
+
+table{
+  font-family: lato;
+  border-collapse: collapse;
+  width: 70%;
+  text-align: center;
+  margin-top: 80px;
+}
+th{
+  font-size: 20px;
+  text-align: left;
+  /*padding-top: 40px;*/
+  background-color: #6bbe30;
+  padding: 8px
+
+}
+td{
+  font-size: 15px;
+  text-align: left;
+  padding: 8px
+}
+/* seems to not be working currently... not sure why. definitely coded correctly. tr: nth-child(odd)*/
+tr: nth-child(2n+1)
+{
+  color: #6bbe30;
+}
+tr: nth-child(even)
+{
+  color: white;
+}
+
+.container{
+  text-align: center;
+  padding-top: 40px;
+}
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  background-color:#6bb330;
+  color:white;
+  text-align: center;
+}
+
+
