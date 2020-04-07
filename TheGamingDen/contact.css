@@ -1,0 +1,57 @@
+body{ 
+    background-image: url('mario.jpg');
+    background-repeat:no-repeat;
+    background-position: left-bottom;
+    background-size: 100% 100%;
+}
+.navbar{
+
+    font-family: lato;
+    width:100%;
+    background-color: rgb(42, 143, 184);
+    overflow: auto;
+}
+.navbar a{
+    font-family: lato;
+    float:left;
+    padding:5px;
+    color:white;
+    text-decoration:none;
+    font-size:27px;
+    width:31%;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color: rgb(25, 167, 56);
+}
+h1{
+    font-size: 45px;
+    padding-top: 100px;
+    padding-left: 45%;
+    font-family: lato;
+    color:white;
+}
+h2{
+    padding:50px;
+    padding-left: 45%;
+    font-size: 30px;
+    font-family: lato;
+    color: white;
+}
+h3{
+    padding:50px;
+    padding-left: 45%;
+    font-size: 30px;
+    font-family: lato;
+    color: white;
+
+}
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color:#6bb330;
+    color:white;
+    text-align: center;
+  }
